@@ -51,25 +51,42 @@ etc..
 
 11 cuando el cliente firme, el empleado  se dispone a cobrar por el servicio y el material que a escogido el cliente.
 
-12 luego se le entrega el material solicitado, (anteriormente verificado que todo se encuentre en buen estado) y 
+12 Se debe verificar que los datos proporcionados por el cliente coincidan con su documento de identidad, revisando que el nombre y el número de cédula sean correctos. También se debe comprobar que el correo electrónico y el número de teléfono estén escritos correctamente. Si se encuentra alguna inconsistencia, se le solicita al cliente que corrija la información antes de continuar con el proceso de arrendamiento.
+
+
+13 luego se le entrega el material solicitado, (anteriormente verificado que todo se encuentre en buen estado) y 
 se trae a la persona de acompañamiento si el servicio es de ruta guiada.
 
-13 se le avisa la cliente que puede tambien pedir servicio a traves de la pagina web
+14 se le avisa la cliente que puede tambien pedir servicio a traves de la pagina web
 
-14 se guardan los datos del cliente en el sistema
-15 el cliente se va.
+15 se guardan los datos del cliente en el sistema
+
+16 el cliente se va.
 
 
  fin del ciclo
 
 QUE COSAS FALTARON EN EL CICLO?
+
 EN EL PASO 10 REVISAR QUE LA INFORMACION SEA VERDADERA
 QUE HACER SI UNA  BICICLETA ESTA DAÑADA?
 QUE HACER SI UN CLIENTE DAÑA UNA BICICLETA
 
---------------------------------------------
+-----------------------------------
+SOLUCIONES
+este deberia ser el paso 12
 
-#que caracteristica cumple cada parte del proceso?
+ Se debe verificar que los datos proporcionados por el cliente coincidan con su documento de identidad, revisando que el nombre y el número de cédula sean correctos. También se debe comprobar que el correo electrónico y el número de teléfono estén escritos correctamente. Si se encuentra alguna inconsistencia, se le solicita al cliente que corrija la información antes de continuar con el proceso de arrendamiento.
+
+¿QUÉ HACER SI UNA BICICLETA ESTÁ DAÑADA?
+Si durante la revisión del material se encuentra una bicicleta dañada, esta no se debe entregar al cliente, ya que podría ocasionar un accidente. Se debe informar al encargado, registrar el daño y retirar la bicicleta del inventario disponible hasta que sea reparada y se verifique que se encuentra en buenas condiciones. Si es posible, se le ofrece al cliente otra bicicleta que cumpla con sus necesidades y esté disponible.
+
+¿QUÉ HACER SI UN CLIENTE DAÑA UNA BICICLETA?
+Si un cliente daña una bicicleta durante el arrendamiento, primero se debe verificar que el cliente se encuentre bien y que no haya personas lesionadas. Después, se debe informar al encargado y registrar lo sucedido, incluyendo el estado de la bicicleta y las circunstancias del daño. Se revisan las políticas de la empresa y las condiciones del contrato firmado para determinar las responsabilidades del cliente y de la empresa. Si corresponde, se informa al cliente sobre los costos de reparación o las medidas aplicables, de acuerdo con las condiciones previamente aceptadas. Finalmente, la bicicleta se retira del inventario disponible hasta que sea reparada y revisada.
+
+-------------------------------------
+
+que caracteristica cumple cada parte del proceso?
 
 precision: desde el paso 2 hasta el paso 6 me centro en hacer que el cliente tenga toda la informacion clara y consisa, por ejemplo de como se maneja el negocio, cuales son las reglas,beneficios y politicas de la empresa para que no sea una informacion ambigua.
 
@@ -107,7 +124,6 @@ revisar siempre que todo estuviera en condiciones para entregar
 siempre cobrar despues de revisar las condiciones de las bicicletas y  la firma del cliente en los formularios.
 
 
-
 que patron se repite con cada cliente:
 recibir al cliente
 2 catalogar al tipo de cliente
@@ -122,6 +138,8 @@ esto se hace asi ya que  si  se logra que todos los clientes se puedan atender i
  si hay nuevos clientes: se les explica desde el principio y se les explica bien las normas de la empresa
  si ya hay gente que conoce: se les explica de manera consisa como es el contrato de servicio.
  y todos pasan por la revision y verificacion del material a entregar.
+
+
 
 
 
