@@ -59,11 +59,10 @@ se trae a la persona de acompañamiento si el servicio es de ruta guiada.
 
 14 se le avisa la cliente que puede tambien pedir servicio a traves de la pagina web
 
-15 se guardan los datos del cliente en el sistema
+15 Confirmación final: entregar al cliente un comprobante del pago y del arrendamiento, con la fecha y hora de devolución acordadas.
+16 se guardan los datos del cliente en el sistema
 
-16 el cliente se va.
-
-
+17 el cliente se va.
  fin del ciclo
 
 QUE COSAS FALTARON EN EL CICLO?
@@ -122,7 +121,10 @@ el manterial entregable faltaba
 dandoles una guia de pasos para atender a todos los clientes por igual
 revisar siempre que todo estuviera en condiciones para entregar
 siempre cobrar despues de revisar las condiciones de las bicicletas y  la firma del cliente en los formularios.
+---------------
 
+
+resumen y como funciona el algoritmo:
 
 que patron se repite con cada cliente:
 recibir al cliente
@@ -133,11 +135,55 @@ recibir al cliente
 6 realizar la peticion del cliente
 7 cobrarle al cliente
 8 finalizar el ciclo con la entrega del servicio al cliente
-
+ 
 esto se hace asi ya que  si  se logra que todos los clientes se puedan atender igual es haciendo que todos esten a la par de informacion
  si hay nuevos clientes: se les explica desde el principio y se les explica bien las normas de la empresa
  si ya hay gente que conoce: se les explica de manera consisa como es el contrato de servicio.
  y todos pasan por la revision y verificacion del material a entregar.
+ 
+ 3 abstraccion
+ se obtienen los datos completos del cliente como nombre cedula numero de telefono etc
+ si el cliente si cumple su informacion
+ La fecha,Tipo de bicicleta.
+ Si quiere un recorrido guiado o no.
+
+ que se dejo  por fuera
+ Devolución del material: establecer un procedimiento para recibir las bicicletas, revisar su estado y registrar la devolución.
+Retrasos en la devolución: definir qué hacer si el cliente entrega la bicicleta después del tiempo acordado y si existen cobros adicionales.
+Problemas con el pago: establecer qué hacer si el cliente no puede pagar, el pago es rechazado o el valor cobrado es incorrecto.
+Registro del inventario: actualizar la disponibilidad de las bicicletas cuando se alquilan, se devuelven o pasan a reparación.
+Cancelaciones y cambios: determinar cómo actuar si el cliente desea cancelar el servicio, cambiar de bicicleta o modificar el tiempo de arrendamiento.
+
+resumen del algoritmo
+
+---------------------------
+
+
+reto 2
+cotizacion basica
+
+Entendido. Aquí tienes las tablas limpias y listas para tu bitácora, sin referencias adicionales:
+
+### Tabla entrada de datos, proceso y salida
+
+| Entrada | Proceso | Salida |
+| --- | --- | --- |
+| **Ncliente** (Cadena) | Leer el nombre del cliente con el mensaje: `'ingrese su nombre porfavor'` | Nombre del cliente |
+| **horaalquiler** (Entero) | Leer la cantidad de horas con el mensaje: `'ingrese cuantas horas va usar el servicio'` | Cantidad de horas de alquiler |
+| **preciohora** (Entero) | Leer el precio por hora con el mensaje: `'ingrese el preciohora del servicio'` | Ninguna (uso interno para el cálculo) |
+| **Ninguna** (se calcula) | Calcular: `valorTotal <- horaalquiler * preciohora` | **valorTotal** (Real) a pagar mostrado en el mensaje: `'Hola ', Ncliente, ': tu alquiler de ', horaalquiler, ' horas te cuesta pesos ', valorTotal` |
+
+---
+
+### Tabla de pruebas del algoritmo: cotización básica
+
+| Entrada | Resultado esperado | Resultado obtenido |
+| --- | --- | --- |
+| **Ncliente:** Ana, **horaalquiler:** 1, **preciohora:** 10000 | $1 \times \$10.000 = \$10.000$ | `Hola Ana : tu alquiler de 1 horas te cuesta pesos 10000` |
+| **Ncliente:** Carlos, **horaalquiler:** 3, **preciohora:** 10000 | $3 \times \$10.000 = \$30.000$ | `Hola Carlos : tu alquiler de 3 horas te cuesta pesos 30000` |
+| **Ncliente:** María, **horaalquiler:** 8, **preciohora:** 10000 | $8 \times \$10.000 = \$80.000$ | `Hola María : tu alquiler de 8 horas te cuesta pesos 80000` |
+
+
 
 
 
