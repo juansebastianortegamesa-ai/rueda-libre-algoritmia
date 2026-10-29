@@ -184,12 +184,34 @@ Entendido. Aquí tienes las tablas limpias y listas para tu bitácora, sin refer
 | **Ncliente:** panchita, **horaalquiler:** 8, **preciohora:** 10000 | $8 \times \$10.000 = \$80.000$ | `Hola panchita: tu alquiler de 8 horas te cuesta pesos 80000` |
 
 
+si la persona coloca 0 o menos de 0 el algoritmo muestra el resultado en 0
 
 
+---------------------------------------------------------------------
+reto 3
+
+### Tabla de entrada de datos, proceso y salida
+
+| Entrada                           | Proceso                                                                                                              | Salida                                                       |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| nombreRecorrido (Cadena)          | Leer el nombre del recorrido con el mensaje: `Ingrese el nombre del recorrido:`                                      | Nombre del recorrido                                         |
+| precioPorPersona (Real)           | Leer el precio por persona con el mensaje: `Ingrese el precio por persona:`                                          | Precio por persona                                           |
+| cantidadPersonas (Entero)         | Leer la cantidad de personas con el mensaje: `Ingrese la cantidad de personas:`                                      | Cantidad de personas                                         |
+| Ninguna (se calcula)              | Calcular: `valorTotal <- precioPorPersona * cantidadPersonas`                                                        | valorTotal (Entero o Real): valor total a pagar por el grupo |
+| valorTotal (calculado)            | Calcular: `anticipo <- Redon(valorTotal * 0.30)`                                                                     | anticipo (Entero): valor del anticipo del 30 % redondeado    |
+| valorTotal, anticipo (calculados) | Calcular: `saldo <- valorTotal - anticipo`                                                                           | saldo (Entero o Real): saldo pendiente de pago               |
+| Datos y resultados calculados     | Mostrar el nombre del recorrido, la cantidad de personas, el valor total, el anticipo requerido y el saldo pendiente | Mensajes con la cotización completa del recorrido            |
+
+### Tabla de pruebas del algoritmo: cotización de recorrido
+
+| Entrada                                                                          | Resultado esperado                                                                  | Resultado obtenido                                                                                                                                                            |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| nombreRecorrido: Sabores de Barrio; precioPorPersona: 60000; cantidadPersonas: 4 | \\(60.000 \cantidadpersonas 4 = 240.000\\) Total: $240.000; Anticipo: $72.000; Saldo: $168.000 | `Recorrido: Sabores de Barrio`  `Cantidad de personas: 4`  `Valor total: pesos 240000`  `Anticipo requerido (30%): $ 72000`  `Saldo pendiente el día del recorrido: $ 168000` |
 
 
+----------------------------------------------------
 
- 
+mini reto 4
 
 
 
