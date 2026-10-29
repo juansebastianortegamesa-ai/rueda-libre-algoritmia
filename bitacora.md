@@ -180,8 +180,8 @@ Entendido. Aquí tienes las tablas limpias y listas para tu bitácora, sin refer
 | Entrada | Resultado esperado | Resultado obtenido |
 | --- | --- | --- |
 | **Ncliente:** Ana, **horaalquiler:** 1, **preciohora:** 10000 | $1 \times \$10.000 = \$10.000$ | `Hola Ana : tu alquiler de 1 horas te cuesta pesos 10000` |
-| **Ncliente:** Carlos, **horaalquiler:** 3, **preciohora:** 10000 | $3 \times \$10.000 = \$30.000$ | `Hola Carlos : tu alquiler de 3 horas te cuesta pesos 30000` |
-| **Ncliente:** María, **horaalquiler:** 8, **preciohora:** 10000 | $8 \times \$10.000 = \$80.000$ | `Hola María : tu alquiler de 8 horas te cuesta pesos 80000` |
+| **Ncliente:** paquito, **horaalquiler:** 3, **preciohora:** 10000 | $3 \times \$10.000 = \$30.000$ | `Hola paquito : tu alquiler de 3 horas te cuesta pesos 30000` |
+| **Ncliente:** panchita, **horaalquiler:** 8, **preciohora:** 10000 | $8 \times \$10.000 = \$80.000$ | `Hola panchita: tu alquiler de 8 horas te cuesta pesos 80000` |
 
 
 
